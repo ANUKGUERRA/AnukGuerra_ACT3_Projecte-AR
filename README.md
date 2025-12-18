@@ -12,7 +12,7 @@ Canvas amb dos botons:
 - **Play**: Canvia a l’escena de joc.
 - **Exit**: Tanca l’aplicació.
 
-![Menu Scene](Images/image1.png)
+![Menu Scene](Images/1.png)
 
 ---
 
@@ -26,7 +26,7 @@ Objecte format per múltiples hexàgons, cadascun amb un `tag`:
 
 Aquests tags permeten col·locar les peces segons l’equip.
 
-![Board](Images/image2.png)
+![Board](Images/2.png)
 
 ---
 
@@ -35,12 +35,12 @@ Aquests tags permeten col·locar les peces segons l’equip.
 #### Center Image Target
 Activa el tauler quan és detectat.
 
-![Center Target](Images/image3.png)
+![Center Target](Images/3.png)
 
 #### Unit Image Target
 Activa un GameObject que serveix per col·locar les fitxes als hexàgons.
 
-![Unit Target](Images/image4.png)
+![Unit Target](Images/4.png)
 
 🔹 **Detall important**  
 El `UnitPlacer` està lleugerament elevat per poder fer un **raycast cap avall** i detectar el tauler.  
@@ -62,22 +62,22 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 
   ✔️ Configuracions vàlides: `1v1`, `2v2`, `3v3`, etc.
 
-![UI 1](Images/image5.png)
-![UI 2](Images/image6.png)
-![UI 3](Images/image7.png)
-![UI 4](Images/image8.png)
+![UI 1](Images/5.png)
+![UI 2](Images/6.png)
+![UI 3](Images/7.png)
+![UI 4](Images/8.png)
 
 ---
 
 ### 🤖 Comportament dels Personatges
 
-![Character Behaviour](Images/image9.png)
+![Character Behaviour](Images/9.png)
 
 ---
 
 ### ☠️ Mort dels Personatges
 
-![Character Death](Images/image10.png)
+![Character Death](Images/10.png)
 
 ---
 
