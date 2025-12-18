@@ -86,3 +86,7 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 - **Botó**: Torna a l’escena del menú principal
 
 ![Win Scene](Images/10.png)
+
+
+![Tracker1](Images/carta1.png)
+![Tracker2](Images/carta2.png)
