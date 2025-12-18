@@ -1,3 +1,5 @@
+using DG.Tweening;
+using System.Diagnostics.Contracts;
 using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.UI;
@@ -9,15 +11,16 @@ using UnityEngine.UI;
 public class Game : MonoBehaviour
 {
     [SerializeField] private GameStart m_EventChannel;
-
-    [SerializeField]Button placeButton;
-    [SerializeField]Button playButton;
-    [SerializeField]GameObject cubePreview;
-    [SerializeField]GameObject realCube;
-    [SerializeField]GameObject hexGrid;
+    [SerializeField] Canvas canvas;
+    [SerializeField] Button placeButton;
+    [SerializeField] Button playButton;
+    [SerializeField] GameObject cubePreview;
+    [SerializeField] GameObject realCube;
+    [SerializeField] GameObject hexGrid;
     [SerializeField] Material blueMat;
     [SerializeField] Material redMat;
     [SerializeField] GameObject sphereVolume;
+    [SerializeField] Material ditherMat;
 
     public static bool gamePlaying;
     private team unitTeam;
@@ -87,9 +90,20 @@ public class Game : MonoBehaviour
 
     public void playGame()
     {
-        gamePlaying = true;
-        m_EventChannel.SendEventMessage();
-        sphereVolume.SetActive(false);
+
+        float value = ditherMat.GetFloat("_StepThreshold");
+
+        ditherMat
+        .DOFloat(.6f, "_StepThreshold", 5f)
+        .SetEase(Ease.OutQuad)
+        .OnComplete(() =>
+        {
+            gamePlaying = true;
+            m_EventChannel.SendEventMessage();
+            sphereVolume.SetActive(false);
+            canvas.gameObject.SetActive(false);
+            ditherMat.SetFloat("_StepThreshold", value);
+        });
     }
 
 }

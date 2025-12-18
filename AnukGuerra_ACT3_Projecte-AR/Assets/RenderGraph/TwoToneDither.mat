@@ -37,8 +37,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Dither_Scale: 0.26
-    - _Step_Threshold: -0.34
+    - _Dither_Scale: 0.15
+    - _StepThreshold: 0.2
+    - _Step_Threshold: 0.18
     m_Colors:
     - _Color_A: {r: 0.29089895, g: 0.2981131, b: 0.28967595, a: 1}
     - _Color_B: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}

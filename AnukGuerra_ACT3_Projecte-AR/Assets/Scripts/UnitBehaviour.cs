@@ -52,7 +52,14 @@ public class UnitBehaviour : MonoBehaviour
     public void takeDamage(int damageAmount)
     {
         health -= damageAmount;
-        healthSlider.value = (float)health / maxhealth;
+        health = Mathf.Clamp(health, 0, maxhealth);
+
+        float targetValue = (float)health / maxhealth;
+
+        healthSlider
+            .DOValue(targetValue, 0.3f)
+            .SetEase(Ease.OutCubic);
+
         if (health <= 0)
         {
             Die();

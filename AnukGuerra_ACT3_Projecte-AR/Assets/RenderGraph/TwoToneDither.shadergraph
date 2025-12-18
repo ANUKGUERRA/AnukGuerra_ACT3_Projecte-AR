@@ -1452,10 +1452,10 @@
     "m_Guid": {
         "m_GuidSerialized": "6996d30f-d1ae-40bb-86e2-d6889853150d"
     },
-    "m_Name": "Step Threshold",
+    "m_Name": "StepThreshold",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Step Threshold",
-    "m_DefaultReferenceName": "_Step_Threshold",
+    "m_RefNameGeneratedByDisplayName": "StepThreshold",
+    "m_DefaultReferenceName": "_StepThreshold",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1467,7 +1467,7 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.0,
+    "m_Value": 0.20000000298023225,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1556,7 +1556,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "f56aa7a0095740d9b5e06e243e49591d",
     "m_Id": 0,
-    "m_DisplayName": "Step Threshold",
+    "m_DisplayName": "StepThreshold",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
