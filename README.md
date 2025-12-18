@@ -87,6 +87,7 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 
 ![Win Scene](Images/10.png)
 
-
+<img src="Images/carta1.jpg" alt="carta1" width="200"/>
+<img src="Images/carta2.jpg" alt="carta2" width="200"/>
 ![Tracker1](Images/carta1.jpg)
 ![Tracker2](Images/carta2.jpg)
