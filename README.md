@@ -88,5 +88,5 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 ![Win Scene](Images/10.png)
 
 
-![Tracker1](Images/carta1.png)
-![Tracker2](Images/carta2.png)
+![Tracker1](Images/carta1.jpg)
+![Tracker2](Images/carta2.jpg)
