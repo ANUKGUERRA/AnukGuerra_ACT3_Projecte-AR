@@ -77,8 +77,6 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 
 ### ☠️ Mort dels Personatges
 
-![Character Death](Images/10.png)
-
 ---
 
 ## 🏆 Escena 3: Victòria / Derrota
@@ -87,4 +85,4 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 - **Text**: Mostra el nom/color de l’equip guanyador
 - **Botó**: Torna a l’escena del menú principal
 
-![Win Scene](Images/win_scene.png)
+![Win Scene](Images/10.png)
