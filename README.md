@@ -5,7 +5,7 @@ El joc consisteix en col·locar unitats sobre un tauler hexagonal utilitzant Ima
 
 ---
 
-## 🟢 Escena 1: Menú
+## Escena 1: Menú
 
 Canvas amb dos botons:
 
@@ -16,9 +16,9 @@ Canvas amb dos botons:
 
 ---
 
-## 🔵 Escena 2: Partida
+## Escena 2: Partida
 
-### 🧩 Tauler
+### Tauler
 Objecte format per múltiples hexàgons, cadascun amb un `tag`:
 - `red`
 - `blue`
@@ -30,7 +30,7 @@ Aquests tags permeten col·locar les peces segons l’equip.
 
 ---
 
-### 📍 Trackers
+### Trackers
 
 #### Center Image Target
 Activa el tauler quan és detectat.
@@ -42,13 +42,13 @@ Activa un GameObject que serveix per col·locar les fitxes als hexàgons.
 
 ![Unit Target](Images/4.png)
 
-🔹 **Detall important**  
+**Detall important**  
 El `UnitPlacer` està lleugerament elevat per poder fer un **raycast cap avall** i detectar el tauler.  
 Això permet que, encara que els trackers estiguin sobre una superfície plana, el sistema funcioni correctament.
 
 ---
 
-### 🎮 UI
+### UI
 
 - **Botó Place**
   - Desactivat si:
@@ -60,7 +60,7 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
     - No hi ha mínim una peça per equip
     - Els equips no tenen el mateix nombre de peces
 
-  ✔️ Configuracions vàlides: `1v1`, `2v2`, `3v3`, etc.
+  Configuracions vàlides: `1v1`, `2v2`, `3v3`, etc.
 
 ![UI 1](Images/5.png)
 ![UI 2](Images/6.png)
@@ -69,17 +69,17 @@ Això permet que, encara que els trackers estiguin sobre una superfície plana, 
 
 ---
 
-### 🤖 Comportament dels Personatges
+### Comportament dels Personatges
 
 ![Character Behaviour](Images/9.png)
 
 ---
 
-### ☠️ Mort dels Personatges
+### Mort dels Personatges
 
 ---
 
-## 🏆 Escena 3: Victòria / Derrota
+## Escena 3: Victòria / Derrota
 
 - **Imatge**: Canvia el color segons l’equip guanyador
 - **Text**: Mostra el nom/color de l’equip guanyador
